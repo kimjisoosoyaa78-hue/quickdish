@@ -38,7 +38,7 @@ export const Rastro = ({ go }) => (
       </View>
       <View style={st.grid}>
         <View style={{ width: '47%' }}>
-          <TouchableOpacity style={st.tile}><Text style={st.te}>📦</Text><Text style={st.tt}>Agregar productos</Text></TouchableOpacity>
+          <TouchableOpacity style={st.tile} onPress={() => go('restaurantes')}><Text style={st.te}>📦</Text><Text style={st.tt}>Agregar productos</Text></TouchableOpacity>
           <TouchableOpacity style={[st.tile, { marginTop: 18 }]}><Text style={st.te}>🛵</Text><Text style={st.tt}>Chatear con domiciliario</Text></TouchableOpacity>
           <TouchableOpacity style={st.cancel}><Text style={{ color: '#fff', fontSize: 11, letterSpacing: 1 }}>CANCELAR PEDIDO</Text></TouchableOpacity>
         </View>
