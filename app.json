@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "quickdish",
+    "name": "QuickDish",
     "slug": "quickdish",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/quickdish-icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -12,14 +12,14 @@
     "android": {
       "package": "com.quickdish.app",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#166381",
+        "foregroundImage": "./assets/quickdish-adaptive.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/quickdish-favicon.png"
     },
     "extra": {
       "eas": {

@@ -49,6 +49,6 @@ export const Perfil = ({ go }) => (
         ))}
       </View>
     </ScrollView>
-    <BottomNav go={go} active="Contacto" />
+    <BottomNav go={go} active="Restaurantes" />
   </View>
 );
